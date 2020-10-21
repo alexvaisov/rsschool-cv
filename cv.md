@@ -1,5 +1,5 @@
-# Kazlou Aliaksandr 
-# Numb +375296000000
-# I want to learn programming languages JS, CCS, HTML
-# I speak programming languages Java and Pyton
-# English level A2
+# Surname          *Kazlou 
+# Name             *Aliaksandr 
+# Numb phone       *+375296000000
+# Skills           *HTML, Pyton, CSS and Java
+# Language skills  *English level A2
