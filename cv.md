@@ -1,6 +1,5 @@
-# Surname          **Kazlou 
-# Name             **Aliaksandr 
-# Numb phone       **+375296000000
-# Skills           **HTML, Pyton, CSS and Java
-# Language skills  **English level A2
-:shipit:
+# Surname **Kazlou :shipit:
+# Name **Aliaksandr :shipit:
+# Numb phone **+375296000000 :shipit:
+# Skills **HTML, Pyton, CSS and Java :shipit:
+# Language skills **English level A2 :shipit:
