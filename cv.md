@@ -21,5 +21,6 @@
       result += arguments[i] + separator;
    }
    return result;
-}
-     ```
+  }
+
+ * **Experience**: Udemy platform (CSS, HTML, JS courses)
