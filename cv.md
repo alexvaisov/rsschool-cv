@@ -26,3 +26,7 @@
  * **Experience**: Udemy platform (CSS, HTML, JS courses)
 * **Education**
   * Mogilev Engineering College (engineer of mechanical engineering)
+  
+#### Languages:
+* **English** - A2
+* **Polish** - B1
