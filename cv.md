@@ -10,3 +10,16 @@
 #### _Be the best version of you!_ - It is my logan for life.  I haven't got an experience in programming, but have got a huge wish to study.
 
 * **Programming languages**: HTML, CSS, JS (beginner), VCS Git.
+* **Code Examples**
+
+     ```
+  function myConcat(separator) {
+   var result = '';
+   var i;
+
+   for (i = 1; i < arguments.length; i++) {
+      result += arguments[i] + separator;
+   }
+   return result;
+}
+     ```
