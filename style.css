@@ -55,3 +55,31 @@ table.border th {
 a:focus:after {
     width: 100%;
 }
+.author {
+    display: flex;
+    width: 556px;
+    height: 166px;
+    justify-content: space-between;
+    padding: 20px 0 20px 20px;
+}
+.author_avatar img {
+    width: 232px;
+    height: 161px;
+    border-radius: 4px;
+}
+.author_name h1 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.author_name p {
+    font-size: 17px;
+    line-height: 20px;
+}
+.author_name p:after {
+    display: block;
+    position: absolute;
+    width: 43px;
+    height: 2px;
+    background-color: #35D187;
+    content: "";
+}
