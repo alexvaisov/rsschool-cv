@@ -31,7 +31,9 @@ table.border th {
 }
 .navigation_link {
     display: inline;
+
     color: aliceblue;
+    font-size: 13px;
     padding: 20px;
 }
 .navigation_link a {
@@ -75,11 +77,31 @@ a:focus:after {
     font-size: 17px;
     line-height: 20px;
 }
-.author_name p:after {
+.author_name p:after,
+.content h2:after {
     display: block;
     position: absolute;
     width: 43px;
     height: 2px;
     background-color: #35D187;
     content: "";
+}
+.content {
+    display: flex;
+    width: 595px;
+    height: auto;
+
+    color: #FFFFFF;
+    background: #292935;
+}
+.content h2 {
+    font-size: 17px;
+    line-height: 20px;
+}
+.content_list {
+    font-size: 12px;
+    line-height: 18px;
+}
+.content_list__para {
+    padding: 0 0 10px 0;
 }
