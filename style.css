@@ -15,6 +15,9 @@ progress::-webkit-progress-value {
 h2 {
     padding: 0 0 0 20px;
 }
+hr {
+    border-color: #35D187;
+}
 progress {
     width: 110px;
     color: #35D187;
@@ -52,14 +55,14 @@ table.border th {
     font-size: 13px;
     padding: 20px;
 }
-.navigation_link a {
+a {
     position: relative;
     cursor: pointer;
     line-height: 1;
     color: #35D187;
 
 }
-.navigation_link a:after {
+a:after {
     display: block;
     position: absolute;
     left: 0;
@@ -69,7 +72,7 @@ table.border th {
     content: "";
     transition: width 0.3s ease-out;
 }
-.navigation_link a:hover:after,
+a:hover:after,
 a:focus:after {
     width: 100%;
 }
@@ -101,6 +104,12 @@ a:focus:after {
     height: 2px;
     background-color: #35D187;
     content: "";
+}
+.right-side hr {
+    border-color: #35D187;
+}
+.left-side hr {
+    border-color: #F54B42;
 }
 .content {
     display: flex;
