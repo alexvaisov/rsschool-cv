@@ -1,8 +1,15 @@
 html, body {
     font-family: Arial, serif;
     font-size: 16px;
-    margin: 0;
+    max-width: 595px;
+    margin: auto;
     padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
 table {
     border-collapse: collapse;
@@ -13,4 +20,38 @@ table.border td, table.border th {
 }
 table.border th {
     background: #e0e0e0;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 595px;
+    height: 48px;
+    background-color: #292935;
+
+}
+.navigation_link {
+    display: inline;
+    color: aliceblue;
+    padding: 20px;
+}
+.navigation_link a {
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    color: #35D187;
+
+}
+.navigation_link a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F54B42;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.navigation_link a:hover:after,
+a:focus:after {
+    width: 100%;
 }
