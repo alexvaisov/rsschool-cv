@@ -137,3 +137,31 @@ a:focus:after {
     display: flex;
     justify-content: space-between;
 }
+.footer {
+    width: 595px;
+    height: auto;
+    background: #292935;
+}
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 0 15px 0;
+    margin-top: 0;
+    list-style-type: none;
+}
+.footer_link {
+    display: inline;
+    text-align: center;
+}
+.footer_list img {
+    width: 46px;
+    height: 46px;
+}
+.footer_link-age {
+    display: inline;
+    color: #FFFFFF;
+    text-align: center;
+
+    padding-top: 17px;
+}
